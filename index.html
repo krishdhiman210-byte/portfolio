@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+<meta name="viewport" content="width=device-width , initial-scale=1.0">
+        <meta charset="UTF-8">
+        <title>MY PORTFOLIO</title>
+        <link rel="icon" href="icon.jpg">
+        <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    </head>
+    <body>
+        <header class="header">
+            <div class="logo">
+                <!--KRISH DHIMAN-->
+                <img src="logo4.jpg" alt="KRISH DHIMAN Logo--">
+                </div>
+            <nav class ="menu">
+                     
+                     <a href="#hero">HOME</a>
+                     <a href="#about">About me</a>
+                     <a href="#project">Projects</a>
+                     <a href="#skill">Skills</a>
+                     <a href="#contact">Contact</a>
+                     </nav>
+        </header>
+            <div class="hero">
+                 <section class="hero-text" id="hero">
+            <h1>KRISH DHIMAN</h1>
+            <h2>B.Tech CSE STUDENT</h2>
+
+            <p>Passionate about coding,problem solving and 
+                building useful projects.</p>
+                 <a href="#project" class="btn">View my projects</a>
+               <a href="#contact" class="btn"><i class="fa-solid fa-message"></i>Contact Me</a>
+                 </section>
+                <img src="profile.jpg" alt="profile">
+
+               
+               </div>
+               <hr>
+                <section class="about" id="about">
+                <h2><i class="fa-solid fa-user"></i> About Me</h2>
+                </section>
+                <div class="about-content">
+                <p>Hi, I’m <b>Krish Dhiman, a B.Tech CSE </b> student <br>
+                passionate about software development and technology.<br>
+                I enjoy building projects and learning C++, JavaScript, Java, MySQL, and <br>
+                web development. I’m always exploring new skills and turning ideas into practical projects.</p>
+                </div>
+               <hr>
+                <section class="project" id="project">
+                    <h2><i class="fa-solid fa-laptop-code"></i>Projects</h2>
+                </section>
+                 <div class="project-container">
+                    <div class="project-box">
+                        <img src="students.jpg" alt="Student managment system image">
+                        <h3>Student managment system</h3>
+                        <p>A C++ console application for managing<br>
+                        student record using file handling</p>
+                        <span>C++</span>
+                        <span>OOP</span>
+                        <span>File Handling</span>
+                        <br>
+                        <br>
+                        <a href="https://github.com/krishdhiman210-byte/Student-Management-System" 
+                        target="-blank"
+                            rel="noopener noreferrer"    
+                        class="project-btn"><i class="fa-brands fa-github"></i>View code</a>
+                    </div>
+                    
+                    <div class="project-box">
+    <img src="birthday.jpg" alt="Birthday Surprise image">
+
+    <h3>Birthday Surprise</h3>
+
+    <p>A fun web project that creates a<br>
+    special birthday surprise with messages,<br>
+    images and a slideshow.</p>
+
+    <span>HTML</span>
+    <span>CSS</span>
+    <span>JavaScript</span>
+
+    <br>
+    
+                <br>
+                <a href="#" class="project-btn"><i class="fa-brands fa-github"></i>View code</a>
+                    </div>
+               </div>
+               <hr>
+               <section class="skill" id="skill">
+                <h2><i class="fa-solid fa-code"></i>My Skills</h2>
+               </section>
+               <div class="skill-container">
+                <h2>Programing</h2>
+                <div class="skill-box">
+                 <h2><i class="fa-solid fa-code"></i>C</h2>
+                 <h2><i class="fa-solid fa-code"></i>C++</h2>
+                 <h2><i class="fa-brands fa-java"></i>JAVA</h2>
+                 </div>
+                 <h2>Web Development</h2>
+                 <div class="skill-box">
+                 <h2><i class="fa-brands fa-html5"></i>HTML</h2>
+                 <h2><i class="fa-brands fa-css3-alt"></i>CSS</h2>
+                 <h2><i class="fa-brands fa-js"></i>JAVASCRIPT</h2>
+                 </div>
+                 <h2>Database</h2>
+                 <div class="skill-box">
+                 <h2><i class="fa-solid fa-database"></i>MySQL</h2>
+                 </div>
+                 </div>
+                 <section class="contact" id="contact">
+                    <h2><i class="fa-solid fa-envelope"></i>Contact</h2>
+                 </section>
+                <form class="contactme"
+                id="contactForm"
+                  action="https://api.web3forms.com/submit"
+                   method="POST">
+                <input type="hidden" 
+                name="access_key" 
+                value="647e06b8-436e-4b77-a1e1-997411945d26">
+                    <div class="input-box">
+                  <i class="fa-solid fa-user"></i>
+                    <input type="text"
+                    id="name" 
+                    name="name" 
+                    placeholder="Your Name" required>
+                  </div>
+                  <div class="input-box">
+                    <i class="fa-solid fa-envelope"></i>
+                    <input type="email" 
+                    name="email" 
+                    id="email"
+                    placeholder="Email" required>
+                    </div>
+                    <div class="input-box">
+                   <i class="fa-solid fa-message"></i>
+                   <textarea name="message"
+                    id="message" 
+                    placeholder="Your message" required></textarea>
+                    </div>
+                    <div class="input-box">
+                    <button type="submit" id="button">Submit</button>
+                </div>
+                </form>
+                <p id="result"></p>
+                <script src="portfolio.js"></script>
+
+                <footer class="footer">
+                    <div class="footer-content">
+                    <h2>KRISH DHIMAN</h2>
+                    <p>Aspiring Software Developer | B.Tech CSE Student</p>
+                    <div class="social-links">
+                        <a href="https://github.com/dashboard"
+                        target="-blank"
+                        rel="noopener noreferrer"
+                        aria-label="GitHub">
+                        <i class="fa-brands fa-github"></i>
+                        </a>
+                       <a href="https://www.linkedin.com/in/krish-dhiman-85a53342a"
+                       target="-blank"
+                       rel="noopener noreferrer"
+                       aria-label="Linkedin">
+                    <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="https://mail.google.com"
+                    target="-blank"
+                    aria-label="Email">
+                <i class="fa-solid fa-envelope"></i>
+                </a>
+
+                    </div>
+                    <hr>
+                    <p class="copyright">
+                        &copy; 2026 Krish Dhiman. All rights reserved.
+                    </p>
+                </div>
+                </footer>
+    </body>
+        </html>
